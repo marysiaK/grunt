@@ -1,0 +1,18 @@
+$main-fonts: "Open Sans", sans-serif
+$ColorOnBg: white
+
+=square-size($size)
+  width: $size
+  height: $size
+
+body
+  margin: 0
+  font-family: $main-fonts
+  
+.layer
+  +square-size(100%)
+  background: rgba(0, 0, 0, 0.5)
+  display: none
+  position: absolute
+  color: $ColorOnBg
+  margin: 0 auto
